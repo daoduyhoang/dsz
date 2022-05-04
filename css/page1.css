@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+  }
+#home_page{
+    /* height: 100%; */
+    background-image: url('../images/page_1/bg_home.png');
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* #home_page img{
+    width: 100%;
+} */
+.title-pages{
+    position: relative;
+    margin-bottom: 50px;
+}
+.text-title{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.text-title img{
+    width: 100%;
+}
+
+
+/* .product-services .title-hidden{
+    font-size: 86px;
+    text-align: center;font-weight: bold;
+    font-family: 'bebas';
+}   */
+.text-title h3{
+    color: #ffffff;
+    font-family: 'bebas';
+    position: absolute;
+    font-size: 96px;
+    text-align: center;
+    margin-bottom: 0;
+    z-index: 999;
+    bottom: -11px;
+    width: 100%;
+}
+
+.content-text p,.content-text h4{
+    color: #B3B3B3;
+}
+
+.block-content{
+    position: relative;
+}
+.block-content img{
+    width: 100%;
+}
+.title-block,.describe{
+    position: absolute;
+    left: 20px;
+    color: #ffff;
+}
+.describe{
+    bottom: 0;
+    font-size: 10px;
+}
+.title-block{
+    top: 20px;
+    font-size: 26px;
+}
+
+/* MEET THE TEAM */
+.meet-team-warper{
+    position: relative;
+    top: -60px;
+}
+.img-top{
+    text-align: center;
+}
+.img-top p{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 18px;
+}
+.img-top p:nth-child(3){
+    color: red;
+}
+.img-top p:nth-child(2){
+    color: #808080;
+}
+

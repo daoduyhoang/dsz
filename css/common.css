@@ -1,0 +1,110 @@
+@font-face {
+    font-family: aptima;
+    src: url('../fonts/UTMAptima.ttf');
+}
+
+@font-face {
+    font-family: aptima-bold;
+    src: url('../fonts/UTMAptimaBold.ttf');
+}
+
+@font-face {
+    font-family: aptima-bold-italic;
+    src: url('../fonts/UTMAptimaBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: aptimal-italic;
+    src: url('../fonts/UTMAptimaItalic.ttf');
+}
+
+@font-face {
+    font-family: utmavo;
+    src: url('../fonts/UTMAVO.TTF');
+}
+
+@font-face {
+    font-family: utmavo-bold;
+    src: url('../fonts/UTMAVOBOLD.TTF');
+}
+
+@font-face {
+    font-family: utmavo-bold-italic;
+    src: url('../fonts/UTMAVOBOLD_ITALIC.TTF');
+}
+
+@font-face {
+    font-family: utmavo-italic;
+    src: url('../fonts/UTMAVOITALIC.TTF');
+}
+
+@font-face {
+    font-family: bebas;
+    src: url('../fonts/UTMBebas.ttf');
+}
+
+body{
+    font-family: 'aptima';
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+  }
+
+/* HEADER */
+
+#header{
+    padding-top: 30px;
+    margin-bottom: 75px;
+}
+
+ul{
+    list-style-type: none;
+}
+#header ul li {
+    padding: 0 15px;
+}
+#header ul li a {
+    color: #808080;
+    text-transform: uppercase;
+}
+#header ul li a:hover{
+    text-decoration: none;
+}
+
+.mt-30px{
+    margin-top: 30px;
+}
+
+/* BUTTON FIND OUT */
+.find-out{
+    position: absolute;
+    top: 50%;
+    padding: 7px 0;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 97%;
+    transform: translateY(-50%);
+}
+.find-out button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+    border: unset;
+    /* background-color: #fff; */
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.bg-button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+}
