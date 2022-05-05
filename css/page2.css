@@ -26,14 +26,14 @@
     font-family: 'bebas';
     font-size: 92px;
     color: #CCCCCC;
-    padding-top: 100px;
+    padding-top: 46px;
 }
 .dynamic p{
     margin-bottom: 0;
     font-size: 92px;
     position: relative;
 }
-.dynamic p::before{
+/* .dynamic p::before{
     content: '';
     position: absolute;
     top: 0;
@@ -41,11 +41,11 @@
     width: 100%;
     background-color: #fff;
     left: 0;
-}
+} */
 .dynamic p::after{
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     height: 1px;
     width: 100%;
     background-color: #fff;
@@ -54,14 +54,45 @@
 .dynamic p span{
     color: #EB3A39;
 }
+.warrper-the{
+    position: relative;
+    top: 40px;
+}
 .the{
     font-size: 56px;
-    background-color: black;
-    position: absolute;
+    /* background-color: black; */
+    position: relative;
     z-index: 2;
-    top: -63px;
-    padding: 0 20px;
-    transform: translateX(-50%);
+    /* top: -63px; */
+    padding: 0 15px;
+    /* transform: translateX(-50%); */
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.the::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 46%;
+    height: 1px;
+    display: block;
+    background-color: #fff;
+    bottom: 1px;
+}
+.the::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 46%;
+    height: 1px;
+    display: block;
+    background-color: #fff;
+    bottom: 1px;
+}
+.the span{
+    position: relative;
+    top: 15px;
 }
 .dynamic .container{
     position: relative;
@@ -97,6 +128,8 @@
     align-items: baseline;
     color: #CCCCCC;
     position: relative;
+    max-height: 330px;
+    height: 330px;
 }
 .position h3{
     font-size: 25px;
@@ -112,7 +145,7 @@
     width: 80%;
     height: 80%;
     background: linear-gradient(107deg, rgba(26,26,26,0) 0%, rgba(26,26,26,1) 50%, rgba(26,26,26,0) 100%);
-    bottom: 21px;
+    bottom: 0px;
 }
 
 
@@ -135,6 +168,9 @@
     padding: 5px 0;
 }
 
-/* .zealosu .text-menber span{
-    margin-bottom: 0;
-} */
+.could-be-you{
+    text-align: center;
+    margin-top: 74px;
+    background: linear-gradient(90deg, rgba(26,26,26,0) 0%, rgba(26,26,26,1) 50%, rgba(26,26,26,0) 100%);
+    padding-top: 50px;
+}

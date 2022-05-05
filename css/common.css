@@ -59,6 +59,8 @@ body, html {
 #header{
     padding-top: 30px;
     margin-bottom: 75px;
+    background: linear-gradient(90deg, rgba(26,26,26,0) 0%, rgba(26,26,26,1) 50%, rgba(26,26,26,0) 100%);
+    padding-bottom: 20px;
 }
 
 ul{
@@ -73,6 +75,21 @@ ul{
 }
 #header ul li a:hover{
     text-decoration: none;
+}
+
+.header-border{
+    position: relative;
+}
+.header-border::after{
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(228,211,0,1) 19.3548%, rgba(244,128,32,1) 33.871%, rgba(238,68,40,1) 45.6989%, rgba(237,37,38,1) 61.2903%, rgba(106,47,114,1) 78.4946%, rgba(17,2,82,1) 93.5484%);
+}
+.menu li:hover #header ul li a{
+    color: #fff;
 }
 
 .mt-30px{
@@ -107,4 +124,64 @@ ul{
     margin-top: 30px;
     display: flex;
     justify-content: end;
+}
+
+
+.footer{
+    color: #B3B3B3;
+    text-transform: uppercase;
+    
+    background: linear-gradient(90deg, rgba(26,26,26,0) 0%, rgba(26,26,26,1) 50%, rgba(26,26,26,0) 100%);
+}
+.border-footer{
+    padding-top: 55px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.border-footer::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(228,211,0,1) 19.3548%, rgba(244,128,32,1) 33.871%, rgba(238,68,40,1) 45.6989%, rgba(237,37,38,1) 61.2903%, rgba(106,47,114,1) 78.4946%, rgba(17,2,82,1) 93.5484%);
+}
+.footer .phone{
+    margin-bottom: 0;
+}
+.footer .adress-footer{
+    font-size: 15px;
+    line-height: 34px;
+}
+.block-footer a{
+    color: #B3B3B3;
+    font-size: 15px;
+}
+.block-footer a:hover{
+    text-decoration: none;
+}
+.block-footer{
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.see-more-team{
+    text-align: center;
+    margin-top: 50px;
+}
+.see-more-team img{
+    width: 35px;
+}
+.see-more-team button{
+    display: inline-block;
+    width: 136px;
+    border: unset;
+    background: linear-gradient(90deg, rgba(243,243,243,1) 0%, rgba(224,208,32,1) 19%, rgba(239,128,34,1) 33.8%, 
+    rgba(235,69,38,1) 45.6%, rgba(232,40,40,1)  61.2%, rgba(107,47,114,1)  78.4%, rgba(28,22,81,1)  93.5%);
+    color: #fff;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 5px 0;
 }
