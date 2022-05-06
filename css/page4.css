@@ -1,0 +1,27 @@
+#show-case{
+     background-image: url('../images/page_4/bg.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.show-case-title{
+    text-align: center;
+}
+.show-case-title h1{
+    font-size: 265px;
+    font-family: 'bebas';
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.show-production-house img, .show-post-production img, .show-content-hub img, .show-master-workshop img{
+    width: 100%;
+}
+.show-master-workshop{
+    margin-top: 50px;
+}
+
+#show-case .see-more-team button{
+    width: 228px;
+}
+#show-case #header{
+    margin-bottom: 20px;
+}

@@ -130,6 +130,7 @@
     position: relative;
     max-height: 330px;
     height: 330px;
+    margin-top: 30px;
 }
 .position h3{
     font-size: 25px;
@@ -173,4 +174,19 @@
     margin-top: 74px;
     background: linear-gradient(90deg, rgba(26,26,26,0) 0%, rgba(26,26,26,1) 50%, rgba(26,26,26,0) 100%);
     padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+
+.could-be-you-text h3{
+    color: #EB3A39;
+    font-weight: bold;
+    font-size: 96px;
+    text-transform: uppercase;
+}
+.could-be-you-text p{
+    color: #CCCCCC;
+    text-transform: uppercase;
+    font-size: 30px;
 }
