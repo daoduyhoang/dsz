@@ -10,7 +10,7 @@
     <title>Page 6</title>
 </head>
 <body>
-    <div id="life">
+    <div id="life-page">
         <div id="header">
             <div class="container header-border">
                 <div class="row align-items-center">
@@ -51,17 +51,34 @@
             <div>
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link " id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                      <a class="nav-link active" id="life-tab" data-toggle="tab" href="#life" role="tab" aria-controls="life" aria-selected="true">
+                          <span class="text-title-tab">LIFE</span>
+                        <img src="../images/page_3/arrow-down.svg" alt="">
+                      </a>
+                     
                     </li>
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                        <a class="nav-link " id="null-tab" data-toggle="tab" href="#null" role="tab" aria-controls="life" aria-selected="true">
+                            <span class="text-title-tab">PASSION</span>
+                            <img src="../images/page_3/arrow-down.svg" alt="">
+                        </a>
+                      </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="passion-tab" data-toggle="tab" href="#passion" role="tab" aria-controls="passion" aria-selected="false">
+                          <span class="text-title-tab">  VIDEO</span>
+                          <img src="../images/page_3/arrow-down.svg" alt="">
+                        </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                      <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">
+                          
+                          <span class="text-title-tab">BLOG</span>
+                          <img src="../images/page_3/arrow-down.svg" alt="">
+                        </a>
                     </li>
                   </ul>
                   <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="tab-pane fade show active" id="life" role="tabpanel" aria-labelledby="life-tab">
                         <div class="content-tab">
                             <div class="row img-content">
                                 <div class="col-6">
@@ -140,7 +157,7 @@
                              </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="tab-pane fade" id="passion" role="tabpanel" aria-labelledby="passion-tab">
                         <div class="content-tab-video">
                             <div class="main-vid">
                                 <img src="../images/page_6/video_1.png" alt="">
@@ -163,32 +180,170 @@
                                                 <li>Director of Photography: Phan Nguyễn</li>
                                             </ul>
 
-                                            <div class="action-img">
-                                                <img src="../images/page_6/circle-arrow-up.svg" alt="">
-                                                <img src="../images/page_6/circle-arrow-down.svg" alt="">
-                                                <img src="../images/page_6/icon-heart.svg" alt="">
-                                                <img src="../images/page_6/icon-play.svg" alt="">
-                                            </div>
+                                            
                                         </div>
                                         <div class="col-6">
                                             <h3>Lorem ipsum dolor</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
                                             <p>tis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                                            <div class="action-img">
-                                                <img src="../images/page_6/icon-facebook.svg" alt="">
-                                                <img src="../images/page_6/icon-messenger.svg" alt="">
-                                                <img src="../images/page_6/icon-whatsapp.svg" alt="">
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="icon-action-detail">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="action-img">
+                                                    <img src="../images/page_6/circle-arrow-up.svg" alt="">
+                                                    <img src="../images/page_6/circle-arrow-down.svg" alt="">
+                                                    <img src="../images/page_6/icon-heart.svg" alt="">
+                                                    <img src="../images/page_6/icon-play.svg" alt="">
+                                                </div>
                                             </div>
+                                            <div class="col-6">
+                                                <div class="action-img text-right">
+                                                    <img src="../images/page_6/icon-facebook.svg" alt="">
+                                                    <img src="../images/page_6/icon-messenger.svg" alt="">
+                                                    <img src="../images/page_6/icon-whatsapp.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sub-vid">
+                                <img src="../images/page_6/video_2.png" alt="" class="sub-vid-banner">
+                                <div class="play-box">
+                                    <div class="row align-items-center">
+                                        <div class="col-6">
+                                            <img src="../images/play-button.png" alt="">
+                                            <span>WATCH VIDEO</span>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>Lorem ipsum dolor</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                        <h1>eheheheeh</h1>
+                    <div class="tab-pane fade" id="null" role="tabpanel" aria-labelledby="null-tab">
+                        <h1 style="height: 100vh">COOMING SOON</h1>
+                    </div>
+                    <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
+                        <div class="blog">
+                            <div class="row">
+                                <div class="col-8 left">
+                                    <img src="../images/page_6/blog_1.png" alt="" class="">
+                                </div>
+                                <div class="col-4 right">
+                                    <div class="row">
+                                        <div class="col-3 pt-4">
+                                            <img src="../images/page_6/icon-user.svg" alt="">
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Lorem ipsum
+                                                dolor</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+                                                nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim 
+                                                ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                                                 ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                                                  consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui 
+                                                  blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                                                  <ul>
+                                                    <li>Lorem ipsum dolor sit amet</li>
+                                                    <li>Lorem ipsum dolor sit amet</li>
+                                                    <li>Lorem ipsum dolor sit amet</li>
+                                                </ul>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="text-blog">
+                                <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                                <p class="text-red">Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="line-action">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="../images/page_6/circle-arrow-up.svg" alt="">
+                                        <img src="../images/page_6/circle-arrow-down.svg" alt="">
+                                        <img src="../images/page_6/icon-heart.svg" alt="">
+                                        <img src="../images/page_6/icon-play.svg" alt="">
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <img src="../images/page_6/icon-facebook.svg" alt="">
+                                        <img src="../images/page_6/icon-messenger.svg" alt="">
+                                        <img src="../images/page_6/icon-whatsapp.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="blog-post">
+                                <img src="../images/page_6/blog_2.png" alt="">
+                            </div>
+
+                            <div class="text-blog">
+                                <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                                <p class="text-red">Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="line-action">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="../images/page_6/circle-arrow-up.svg" alt="">
+                                        <img src="../images/page_6/circle-arrow-down.svg" alt="">
+                                        <img src="../images/page_6/icon-heart.svg" alt="">
+                                        <img src="../images/page_6/icon-play.svg" alt="">
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <img src="../images/page_6/icon-facebook.svg" alt="">
+                                        <img src="../images/page_6/icon-messenger.svg" alt="">
+                                        <img src="../images/page_6/icon-whatsapp.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                   </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="container border-footer">
+                <div class="row">
+                    <div class="col-4">
+                        <p class="adress-footer">Số 7 - Đường Số 3 - Khu dân cư Lập <br>
+                            Phúc - Phước Kiển - Nhà Bè Thành <br>
+                            phố Hồ Chí Minh
+                        </p>
+                        <p class="phone">PHONE:  098 936 84 66</p>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-7">
+                        <div class="row justify-content-between h-100">
+                            <ul class="block-footer">
+                                <li><a href="#">FAQST</a></li>
+                                <li><a href="#">REFERRAL</a></li>
+                                <li><a href="#">SEND FEEDBACK</a></li>
+                            </ul>
+
+                            <ul class="block-footer">
+                                <li><a href="#">TERMS AND CONDITIONS</a></li>
+                                <li><a href="#">PRIVACY AND POLICY</a></li>
+                                <li><a href="#">NEED HELP?</a></li>
+                            </ul>
+
+                            <ul class="block-footer">
+                                <li><a href="#">SIGN IN</a></li>
+                                <li><a href="#">SIGN UP</a></li>
+                                <li style="visibility: hidden;"><a href="#">SIGN UP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
