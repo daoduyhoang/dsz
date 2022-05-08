@@ -40,9 +40,18 @@
     font-size: 25px;
 }
 
+
 .text-title-tab{
     display: block;
     position: relative;
+}
+
+#life-page .nav-tabs .nav-link.active .text-title-tab::before{
+    background-color: #fff;
+}
+
+#life-page .nav-tabs .nav-link.active .text-title-tab::after{
+    background-color: #fff;
 }
 .text-title-tab::before{
     content: '';
@@ -52,7 +61,7 @@
     height: 2px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #fff;
+    background-color: #cccc;
 }
 .text-title-tab::after{
     content: '';
@@ -62,7 +71,7 @@
     height: 2px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #fff;
+    background-color: #cccc;
 }
 
 .life-title h1{
@@ -70,6 +79,22 @@
     font-family: 'bebas';
     font-weight: bold;
     color: #FFFFFF;
+}
+.bgc-tabs{
+    padding-top: 48px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.content-tab{
+    /* margin-top: 43px; */
+    border-top: 1px solid #cccc;
+    padding-top: 18px;
+   
+}
+.content-tab-video{
+    padding-top: 18px;
+    border-top: 1px solid #ccc;
 }
 .content-tab .img-content img{
     width: 100%;
@@ -162,9 +187,9 @@
 }
 .blog{
     color: #ffff;
-    margin-top: 43px;
     padding-top: 18px;
     border-top: 1px solid white;
+    padding-bottom: 30px;
 }
 .blog .left img{
     width: 100%;
