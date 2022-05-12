@@ -1,0 +1,96 @@
+#process{
+    background-image: url('../images/page_5/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title-process{
+    max-width: 480px;
+    width: 480px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+.title-process h1{
+    text-transform: uppercase;
+    font-family: 'bebas';
+    font-size: 172px;
+}
+.title-process p{
+    text-transform: uppercase;
+}
+.title-process p:nth-child(2){
+    font-size: 30px;
+    font-weight: bold;
+}
+.title-process p:nth-child(3){
+    font-size: 12px;
+    margin-top: 52px;
+}
+.title-process span{
+    color: red;
+    text-transform: uppercase;
+
+}
+.concep{
+    background-image: url('../images/page_5/CONCEPTUALIZATION/bg.png');
+    background-repeat: no-repeat;
+    min-height: 1100px;
+    height: 990px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.item-process{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.img-items{
+    text-align: center;
+}
+.img-items p{
+    color: #ffff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.text-items h4{
+    color: #EB3A39;
+    font-size: 69px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.mr-30{
+    margin-right: 30px;
+}
+.ml-30{
+    margin-left: 30px;
+}
+.w-80{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.concep{
+    padding-top: 120px;
+}
+.mb-100{
+    margin-bottom: 150px;
+}
+.pr-150{
+    padding-right: 150px;
+}
+.pl-150{
+    padding-left: 150px;
+}
+.text-two-way{
+    margin-top: 90px;
+}
+.text-two-way p{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.text-two-way .right{
+    color: #EB3A39;
+}
