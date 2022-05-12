@@ -1,10 +1,77 @@
-#life{
+#life-page{
     background-image: url('../images/page_6/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
+#life-page .nav-tabs .nav-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    flex: 1;
+    margin-right: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#life-page .nav-tabs .nav-item:last-child{
+    margin-right: 0;
+}
 .life-title{
     text-align: center;
+}
+#life-page .nav-tabs .nav-link {
+    border: unset;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
+    font-weight: bold;
+    text-align: center;
+    color: #cccc;
+    font-size: 25px;
+}
+#life-page .nav-tabs .nav-link img{
+    width: 30px;
+}
+#life-page .nav-tabs{
+    border-bottom: 1px solid black;
+}
+#life-page .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: black;
+    font-size: 25px;
+}
+
+
+.text-title-tab{
+    display: block;
+    position: relative;
+}
+
+#life-page .nav-tabs .nav-link.active .text-title-tab::before{
+    background-color: #fff;
+}
+
+#life-page .nav-tabs .nav-link.active .text-title-tab::after{
+    background-color: #fff;
+}
+.text-title-tab::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #cccc;
+}
+.text-title-tab::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #cccc;
 }
 
 .life-title h1{
@@ -12,6 +79,22 @@
     font-family: 'bebas';
     font-weight: bold;
     color: #FFFFFF;
+}
+.bgc-tabs{
+    padding-top: 48px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.content-tab{
+    /* margin-top: 43px; */
+    border-top: 1px solid #cccc;
+    padding-top: 18px;
+   
+}
+.content-tab-video{
+    padding-top: 18px;
+    border-top: 1px solid #ccc;
 }
 .content-tab .img-content img{
     width: 100%;
@@ -49,5 +132,121 @@
     width: 100%;
 }
 .action-img img{
-    width: 31px;
+    width: 40px;
+    margin-right: 18px;
+}
+.detail-main-vid{
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.detail-main-vid h2{
+    font-size: 73px;
+    font-family: 'bebas';
+    margin-bottom: 40px;
+}
+.detail-main-vid h3{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.detail-main-vid p{
+    font-size: 13px;
+}
+.author{
+    margin-bottom: 50px;
+}
+.author, .author2{
+    padding-left: 0;
+}
+.author li, .author2 li{
+    font-size: 16px;
+}
+.icon-action-detail{
+    margin-top: 46px;
+}
+
+.sub-vid-banner{
+    width: 100%;
+}
+
+.play-box{
+    color: #ffff;
+}
+.play-box img{
+    width: 59px;
+}
+.play-box p{
+    font-size: 86px;
+    font-family: 'bebas';
+}
+.play-box span{
+    margin-left: 15px;
+    font-size: 13px;
+    font-family: 'utmavo';
+}
+.blog{
+    color: #ffff;
+    padding-top: 18px;
+    border-top: 1px solid white;
+    padding-bottom: 30px;
+}
+.blog .left img{
+    width: 100%;
+}
+
+.right h3{
+    font-size: 48px;
+    font-family: 'bebas';
+}
+
+.right p{
+    font-size: 13px;
+    margin-bottom: 34px;
+}
+.right ul{
+    padding-left: 0;
+}
+.right ul li{
+    color: red;
+    font-size: 13px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.right ul li::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    left: -40px;
+    top: 50%;
+    transform: translateX(-50%);
+}
+.line-action{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.line-action img{
+    width: 40px;
+    margin-right: 18px;
+}
+.text-blog h2{
+    font-size: 48px;
+    font-family: 'bebas';
+    margin-bottom: 23px;
+}
+.text-red{
+    color: red;
+    font-weight: bold;
+    font-size: 32px;
+}
+.text-blog{
+    margin-top: 48px;
+}
+.blog-post img{
+    width: 100%;
 }
