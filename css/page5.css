@@ -36,7 +36,7 @@
     background-image: url('../images/page_5/CONCEPTUALIZATION/bg.png');
     background-repeat: no-repeat;
     min-height: 1100px;
-    height: 990px;
+    /* height: 990px; */
     background-position: center center;
     background-size: cover;
 }
@@ -93,4 +93,18 @@
 }
 .text-two-way .right{
     color: #EB3A39;
+}
+.height-custom-concep{
+    height: 992px;
+}
+.flex-custom-concep{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.post{
+    background-image: url('../images/page_5/post-PRODUCTION/bg.png');
+}
+.product{
+    background-image: url('../images/page_5/PRODUCTION/bg.png');
 }
