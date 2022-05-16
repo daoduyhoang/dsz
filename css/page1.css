@@ -90,3 +90,93 @@ body, html {
     color: #808080;
 }
 
+
+.showcase h1{
+    font-size: 196px;
+    font-family: 'bebas';
+    text-align: center;
+    color: #fff;
+    margin-bottom: 67px;
+}
+
+
+.member h1{
+    color: #ffff;
+    font-size: 85px;
+    font-family: 'bebas';
+    text-align: center;
+    margin-bottom: 40px;
+}
+.member span{
+    color: #EB3A39;
+}
+.item-slide{
+    padding: 0 20px;
+}
+.item-slide img{
+    width: 100%;
+}
+.item-slide h3{
+    font-size: 14px;
+}
+.item-slide p{
+    font-size: 14px;
+}
+.text-item-slide{
+    margin-top: 30px;
+    padding-right: 30px;
+}
+
+
+.slick-prev:before, .slick-next:before {
+    display: none;
+}
+.slide-men .slick-prev, .slide-men .slick-next {
+    width: 40px;
+    height: 40px;
+    z-index: 9;
+}
+.slide-men .slick-prev{
+    left: 20px;
+}
+.slide-men .slick-next{
+    right: 17px;
+}
+.slide-men {
+    margin-top: 40px;
+}
+
+.slide-banner img{
+    width: 100%;
+}
+.slide-banner-item{
+    position: relative;
+}
+.info-vid-banner{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.48);
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+    color: #ffff;
+    padding: 20px;
+}
+.info-vid-banner p{
+    margin-bottom: 0;
+}
+
+.slide-banner .slick-prev, .slide-banner .slick-next {
+   bottom: 6px;
+   top: unset;
+   z-index: 10;
+   width: 30px;
+   height: 30px;
+}
+.slide-banner .slick-prev{
+    left: 88%;
+}
+.slide-banner .slick-next{
+    right: 5%;
+}
