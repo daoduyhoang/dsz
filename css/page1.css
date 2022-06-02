@@ -268,3 +268,73 @@ body, html {
     background-color: unset;
     border: unset;
 }
+.global{
+    padding-top: 50px;
+}
+
+.text-global{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.global-pronounce{
+    color: #fff;
+    font-size: 18px;
+}
+.global-des{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #808080;
+}
+.global-roll{
+    background-image: url('../images/page_1/dsz_circle_line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 481px;
+    background-position: center;
+}
+.dsz-slide{
+    height: 481px;
+    position: relative;
+
+}
+.content-gen{
+    color: #fff;
+    width: 33.333%;
+    position: absolute;
+}
+.content-gen h2{
+    font-size: 70px;
+    font-weight: bold;
+}
+/* .content-gen p{
+    width: 45%;
+} */
+.content_l{
+    left: 0;
+    bottom: 0;
+}
+.content_c{
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.content_r{
+   right: 0;
+    top: 0;
+}
+.center_content, .right_content{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.center_content h2{
+    font-size: 160px;
+}
+.w-60{
+    width: 60%;
+    text-align: center;
+}

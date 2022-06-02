@@ -14,6 +14,15 @@ $(document).ready(function(){
         nextArrow:"<button type='button' class='slick-next pull-right'><img src='../images/page_3/circle-arow-right.svg'></i></button>"
     });
 
+
+    $('#slide-global').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay:true,
+    });
+
     //THE MEET TEAM
     let member = {
         name:"THUỶ WOLF",

@@ -38,7 +38,7 @@
     min-height: 1100px;
     /* height: 990px; */
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .item-process{
@@ -71,9 +71,9 @@
     margin-right: auto;
     margin-left: auto;
 }
-.concep{
+/* .concep{
     padding-top: 120px;
-}
+} */
 .mb-100{
     margin-bottom: 150px;
 }
