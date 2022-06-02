@@ -338,3 +338,10 @@ body, html {
     width: 60%;
     text-align: center;
 }
+.global-pronounce{
+    text-align: center;
+    font-weight: bold;
+}
+.global-des{
+    text-align: center;
+}
